@@ -187,16 +187,16 @@ https://a833876atrial.authentication.ap21.hana.ondemand.com/oauth/authorize?resp
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Destination](screenshots/destination.png) | Northwind destination configured in BTP Cockpit with connection check passed |
-| ![BAS Preview](screenshots/bas-preview.png) | Fiori List Report running in BAS preview showing live Northwind product data |
-| ![Object Page](screenshots/object-page.png) | Object Page showing full product details after clicking a list row |
-| ![CF Deploy](screenshots/cf-apps-output.png) | Terminal output of `cf html5-list` confirming deployment and public URL |
-| ![Auth Screen](screenshots/auth-screen.png) | SAP XSUAA authorization prompt on the deployed application URL |
-| ![POST Request](screenshots/post-request.png) | Postman POST request to writable OData service returning 201 Created |
-| ![Top Query](screenshots/$top - Top 5 Products.png) | Postman `$top=5` query returning first 5 products |
-| ![Filter Query](screenshots/Filter Discontinued.png) | Postman `$filter=Discontinued eq true` returning discontinued products only |
-| ![Select Query](screenshots/Select Fields.png) | Postman `$select` query returning only ProductID, ProductName, UnitPrice |
-| ![OrderBy Query](screenshots/Order By Price.png) | Postman `$orderby=UnitPrice desc` returning products sorted by price descending |
+| ![Destination] | Northwind destination configured in BTP Cockpit with connection check passed |
+| ![BAS Preview] | Fiori List Report running in BAS preview showing live Northwind product data |
+| ![Object Page] | Object Page showing full product details after clicking a list row |
+| ![CF Deploy] | Terminal output of `cf html5-list` confirming deployment and public URL |
+| ![Auth Screen] | SAP XSUAA authorization prompt on the deployed application URL |
+| ![POST Request] | Postman POST request to writable OData service returning 201 Created |
+| ![Top Query] | Postman `$top=5` query returning first 5 products |
+| ![Filter Query] | Postman `$filter=Discontinued eq true` returning discontinued products only |
+| ![Select Query]| Postman `$select` query returning only ProductID, ProductName, UnitPrice |
+| ![OrderBy Query] | Postman `$orderby=UnitPrice desc` returning products sorted by price descending |
 
 ---
 
@@ -230,4 +230,3 @@ npm start
 npm run start-mock
 ```
 
-**Prerequisite:** Node.js LTS and npm installed. See https://nodejs.org
