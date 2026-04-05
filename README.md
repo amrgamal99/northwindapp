@@ -187,17 +187,16 @@ https://a833876atrial.authentication.ap21.hana.ondemand.com/oauth/authorize?resp
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Destination] | Northwind destination configured in BTP Cockpit with connection check passed |
-| ![BAS Preview] | Fiori List Report running in BAS preview showing live Northwind product data |
-| ![Object Page] | Object Page showing full product details after clicking a list row |
-| ![CF Deploy] | Terminal output of `cf html5-list` confirming deployment and public URL |
-| ![Auth Screen] | SAP XSUAA authorization prompt on the deployed application URL |
-| ![POST Request] | Postman POST request to writable OData service returning 201 Created |
-| ![Top Query] | Postman `$top=5` query returning first 5 products |
-| ![Filter Query] | Postman `$filter=Discontinued eq true` returning discontinued products only |
-| ![Select Query]| Postman `$select` query returning only ProductID, ProductName, UnitPrice |
-| ![OrderBy Query] | Postman `$orderby=UnitPrice desc` returning products sorted by price descending |
-
+| ![Destination](docs/destination.png) | Northwind destination configured in BTP Cockpit with connection check passed |
+| ![BAS Preview](docs/bas-preview.png) | Fiori List Report running in BAS preview showing live Northwind product data |
+| ![Object Page](docs/object-page.png) | Object Page showing full product details after clicking a list row |
+| ![CF Deploy](docs/cf-apps-output.png) | Terminal output of cf html5-list confirming deployment and public URL |
+| ![Auth Screen](docs/auth-screen.png) | SAP XSUAA authorization prompt on the deployed application URL |
+| ![POST Request](docs/post-request.png) | Postman POST request to writable OData service returning 201 Created |
+| ![Top Query](docs/$top%20-%20Top%205%20Products.png) | Postman $top=5 query returning first 5 products |
+| ![Filter Query](docs/Filter%20Discontinued.png) | Postman $filter=Discontinued eq true returning discontinued products only |
+| ![Select Query](docs/Select%20Fields.png) | Postman $select query returning only ProductID, ProductName, UnitPrice |
+| ![OrderBy Query](docs/Order%20By%20Price.png) | Postman $orderby=UnitPrice desc returning products sorted by price descending |
 ---
 
 ## Application Details
